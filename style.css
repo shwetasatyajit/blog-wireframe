@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Playfair+Display:wght@700;800;900&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+nav>div{
+    margin: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 40px;
+}
+#logo{
+    background-color: grey;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+header{
+    height: 420px;
+    background-color: grey;
+    color: rgb(50, 50, 51);
+}
+header>h1{
+    text-align: center;
+    padding-top: 200px;
+}
+.section>h2{
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+.section>p{
+    margin-top: 40px;
+    text-align: center;
+    padding: 0px 280px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.div-container{
+    display: flex;
+}
+.div-container{
+    margin-top: 40px;
+    height: 60px;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: 40px;
+}
+h3{
+    padding-top: 20px;
+    text-align: center;
+}
+#box{
+    margin-top: 40px;
+}
+#box>div{
+    border: 1px solid black;
+    height: 420px;
+    width: 400px;
+}
+.image-container{
+    height: 260px;
+    width: 400px;
+    background-color: grey;
+}
+#box h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#box p{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+footer{
+    margin-top: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+h1, h2{
+    font-family: 'Playfair Display', sans-serif;
+    color: #662D91;
+}
+h3, h4, p, a{
+    font-family: 'Poppins', sans-serif;
+}
+button p{
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background-color: #662D91;
+    color: white;
+}
+button{
+    margin: auto;
+    display: block;
+    text-align: center;
+    border: none;
+    margin-top: 30px;
+}
+.divh2{
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.container h3{
+    padding-top: 5px;
+    line-height: 30px;
+}
+​
+button:hover{
+    box-shadow: 0px 5px 3px 0px rgba(50, 50, 50, 0.75);
+}
+​
+.story:hover{
+    box-shadow: 0px 1px 4px 0px rgba(50, 50, 50, 0.75);
+    transform: scale(1.15);
+}
+​
+a:hover{
+    color: #662D91;
+    font-weight: 600;
+}
+​
+.div-container>div{
+    margin-top: 40px;
+    height: 60px;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: 40px;
+}
